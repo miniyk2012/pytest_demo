@@ -1,0 +1,9 @@
+.idea/
+Pipfile.lock
+easy_demo/chapter6/report.html
+easy_demo/chapter6/assets
+easy_demo/chapter8/report.html
+**/.pytest_cache
+**/__pycache__
+/easy_demo/chapter25/report.html
+easy_demo/report_all.html
