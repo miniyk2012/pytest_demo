@@ -79,6 +79,7 @@ hookspec在这个文件定义: Lib/site-packages/_pytest/hookspec.py
 
 大致流程如下, 没有指明路径的, 都在_pytest/runner.py里:
 
+```
 _pytest/main.pytest_collection
 _pytest/main.pytest_runtestloop
     loop pytest_runtest_protocol(不同的用例)
@@ -98,6 +99,7 @@ _pytest/main.pytest_runtestloop
                 pytest_exception_interact
             call_and_report('teardown')
         pytest_runtest_logfinish
+```
 
 
 
